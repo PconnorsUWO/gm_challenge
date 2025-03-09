@@ -8,7 +8,7 @@ from ultralytics import YOLO
 import helpers  # Ensure this module is available in your PYTHONPATH
 
 # Load your model
-model = YOLO("yolo11x.pt")
+model = YOLO("src\models\yolo11n20epochs.pt")
 
 def process_directory(input_dir, results_path):
     # Load images along with their file paths
