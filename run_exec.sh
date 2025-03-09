@@ -36,4 +36,4 @@ echo "Image Path: $IMAGE_PATH"
 echo "Output Path: $OUTPUT_PATH"
 
 # Run the Python script
-python pipeline.py --image_folder "$IMAGE_PATH" --results_folder "$OUTPUT_PATH"
+python src/pipeline.py --image_folder "$IMAGE_PATH" --results_folder "$OUTPUT_PATH"
